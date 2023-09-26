@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainwrapper {
+  background-color: #2e2e35;
+  color: #dadada;
+  width: 100%;
+  padding-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  padding-top: 40px;
+  width: 100%;
+  gap: 10%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.flex {
+  height: 20px;
+}
+
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+.kisan {
+  height: 2px;
+  width: 0%;
+  background-color: #e4aa48;
+  margin-bottom: 23px;
+  margin-top: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.flex:hover .kisan {
+  width: 100%;
+}
+
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+/* MIDDLE!!! */
+.con {
+  background-color: #34343b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.CONTACT {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  font-weight: 600;
+  padding-top: 50px;
+  color: #e4aa48;
+  font-size: 18px;
+}
+
+.front {
+  font-size: 30px;
+  font-weight: 600;
+  color: #dadada;
+  padding-top: 30px;
+}
+
+.line {
+  height: 2px;
+  width: 12%;
+  background-color: #e4aa48;
+  margin-top: 5px;
+}
+
+.text {
+  font-size: 18px;
+  color: #dadada;
+  line-height: 1.5;
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+}
+/* MIDDLE ENDS HERE!!! */
+
+/* BOX STARTS HERE!!! */
+.box {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  gap: 10px;
+  width: 65%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.wrap {
+  cursor: pointer;
+  display: flex;
+  height: 20px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #2e2e35;
+  box-shadow: 1px 1px 2px #2e2e35;
+}
+
+.mail {
+  padding-left: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.name {
+  color: #e4aa48;
+}
+/* BOX ENDS HERE!!! */
+
+/* DOWN */
+.width {
+  margin-top: 128px;
+  width: 100%;
+  background-color: #e4aa48;
+  height: 2px;
+}
+
+.copy {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 0px 15px;
+  padding: 15px;
+}

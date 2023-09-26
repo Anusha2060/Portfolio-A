@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainwrapper {
+  background-color: #2e2e35;
+  color: #dadada;
+  width: 100%;
+  padding-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  padding-top: 40px;
+  width: 100%;
+  gap: 10%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.flex {
+  height: 20px;
+}
+
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+.kisan {
+  height: 2px;
+  width: 0%;
+  background-color: #e4aa48;
+  margin-bottom: 23px;
+  margin-top: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.flex:hover .kisan {
+  width: 100%;
+}
+
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+/* MIDDLE SECTION!!! */
+
+.skill {
+  background-color: #34343b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.CONTACT {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  font-weight: 600;
+  padding-top: 50px;
+  color: #e4aa48;
+  font-size: 18px;
+}
+
+.front {
+  font-size: 30px;
+  font-weight: 600;
+  color: #dadada;
+  padding-top: 20px;
+}
+
+.line {
+  border: none;
+  height: 2px;
+  width: 12%;
+  background-color: #e4aa48;
+  margin-top: 5px;
+}
+
+/* BOX */
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.wrap {
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  background-color: #2e2e35;
+  box-shadow: 1px 1px 2px #2e2e35;
+}
+
+.head {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #e4aa48;
+  padding-bottom: 15px;
+  padding-left: 0px;
+}
+
+.side {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  padding-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  color: rgb(255, 255, 255);
+}
+
+/* DOWN */
+.width {
+  margin-top: 62px;
+  width: 100%;
+  background-color: #e4aa48;
+  height: 2px;
+}
+
+.copy {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 15px 15px;
+}

@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainwrapper {
+  background-color: #2e2e35;
+  color: #dadada;
+  width: 100%;
+  padding-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  padding-top: 40px;
+  width: 100%;
+  gap: 10%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.flex {
+  height: 20px;
+}
+
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+.kisan {
+  height: 2px;
+  width: 0%;
+  background-color: #e4aa48;
+  margin-bottom: 23px;
+  margin-top: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.flex:hover .kisan {
+  width: 100%;
+}
+
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+/* ABOUT SECTION!!! */
+.abo {
+  background-color: #34343b;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ABOUT {
+  font-weight: 600;
+  padding-top: 50px;
+  color: #e4aa48;
+  font-size: 18px;
+}
+
+.text {
+  font-size: 18px;
+  color: #dadada;
+  line-height: 1.5;
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* ABOUT SECTION ENDS HERE!!! */
+
+/* 2ND PARA!!! */
+.what {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #dadada;
+}
+
+.line {
+  height: 2px;
+  width: 18%;
+  background-color: #e4aa48;
+  margin-top: 5px;
+}
+/* 2ND PARA ENDS HERE!!! */
+
+/* BOX STARTS HERE!!! */
+.box {
+  display: flex;
+  gap: 25px;
+  width: 70%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 270px;
+  width: 55%;
+  background-color: #2e2e35;
+  box-shadow: 1px 1px 2px #2e2e35;
+}
+
+.one:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.web {
+  padding-top: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.pen {
+  color: #e4aa48;
+}
+
+.pe {
+  color: rgb(255, 255, 255);
+}
+
+/* BOX ENDS HERE!!! */
+
+/* ANKER TAG */
+.ab {
+  color: #dadada;
+  text-decoration: none;
+}
+
+/* DOWN */
+.width {
+  margin-top: 42px;
+  width: 100%;
+  background-color: #e4aa48;
+  height: 2px;
+}
+
+.copy {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 15px 15px;
+}
