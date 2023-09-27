@@ -1,0 +1,39 @@
+.mainwrapper {
+  background-color: #2e2e35;
+  color: #dadada;
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+.nav {
+  background-color: #2e2e35;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  gap: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  height: 10vh;
+  padding-top: 20px;
+}
+
+.body {
+  height: 94vh;
+  overflow: scroll;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 6vh;
+  width: 100%;
+}

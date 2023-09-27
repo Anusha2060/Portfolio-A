@@ -5,26 +5,14 @@
   padding: 0px;
 }
 
-.mainwrapper {
-  background-color: #2e2e35;
-  color: #dadada;
-  width: 100%;
-  padding-bottom: 50px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.nav {
-  padding-top: 40px;
-  width: 100%;
-  gap: 10%;
+.logo {
   display: flex;
   justify-content: space-around;
-  font-size: 16px;
-}
-
-.logo {
-  font-weight: 600;
-  font-size: 18px;
+  align-items: center;
+  background-image: url("../RESOURCES/Screenshot__9_-removebg-preview\ \(5\).png");
+  background-size: cover;
+  height: 180px;
+  width: 200px;
 }
 
 nav {
@@ -45,7 +33,6 @@ nav {
   height: 2px;
   width: 0%;
   background-color: #e4aa48;
-  margin-bottom: 23px;
   margin-top: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -61,7 +48,7 @@ nav {
 
 /* ABOUT SECTION!!! */
 .abo {
-  background-color: #34343b;
+  padding-top: 80px;
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -151,8 +138,6 @@ nav {
 
 /* DOWN */
 .width {
-  margin-top: 42px;
-  width: 100%;
   background-color: #e4aa48;
   height: 2px;
 }
@@ -161,5 +146,5 @@ nav {
   font-size: 14px;
   text-align: center;
   color: white;
-  padding: 15px 15px;
+  padding: 10px 10px;
 }

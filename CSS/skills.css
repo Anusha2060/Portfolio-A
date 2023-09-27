@@ -5,26 +5,15 @@
   padding: 0px;
 }
 
-.mainwrapper {
-  background-color: #2e2e35;
-  color: #dadada;
-  width: 100%;
-  padding-bottom: 50px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.nav {
-  padding-top: 40px;
-  width: 100%;
-  gap: 10%;
-  display: flex;
-  justify-content: space-around;
-  font-size: 16px;
-}
 
 .logo {
-  font-weight: 600;
-  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../RESOURCES/Screenshot__9_-removebg-preview\ \(5\).png");
+  background-size: cover;
+  height: 180px;
+  width: 200px;
 }
 
 nav {
@@ -45,7 +34,6 @@ nav {
   height: 2px;
   width: 0%;
   background-color: #e4aa48;
-  margin-bottom: 23px;
   margin-top: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -62,11 +50,11 @@ nav {
 /* MIDDLE SECTION!!! */
 
 .skill {
-  background-color: #34343b;
   font-family: "Open Sans", sans-serif;
 }
 
 .CONTACT {
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -84,7 +72,7 @@ nav {
   font-size: 30px;
   font-weight: 600;
   color: #dadada;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .line {
@@ -111,7 +99,6 @@ nav {
 
 .wrap {
   height: 250px;
-  width: 80%;
   margin: auto;
   background-color: #2e2e35;
   box-shadow: 1px 1px 2px #2e2e35;
@@ -119,7 +106,7 @@ nav {
 
 .head {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   padding-top: 20px;
   font-weight: 600;
   color: #e4aa48;
@@ -129,15 +116,16 @@ nav {
 
 .side {
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 80% 80%;
   padding-left: 40px;
   align-items: center;
   justify-content: center;
 }
 
 .icon {
-  font-size: 14px;
+  font-size: 20px;
   display: flex;
+  align-items: center;
   gap: 10px;
   padding-top: 20px;
   color: rgb(255, 255, 255);
@@ -145,8 +133,6 @@ nav {
 
 /* DOWN */
 .width {
-  margin-top: 62px;
-  width: 100%;
   background-color: #e4aa48;
   height: 2px;
 }
@@ -155,5 +141,5 @@ nav {
   font-size: 14px;
   text-align: center;
   color: white;
-  padding: 15px 15px;
+  padding: 10px 10px;
 }

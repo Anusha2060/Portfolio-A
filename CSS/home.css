@@ -8,25 +8,14 @@
   padding: 0px;
 }
 
-.mainwrapper {
-  background-color: #2e2e35;
-  color: #dadada;
-  width: 100%;
-  font-family: "Open Sans", sans-serif;
-}
-
-.nav {
-  padding-top: 40px;
-  width: 100%;
-  gap: 10%;
+.logo {
   display: flex;
   justify-content: space-around;
-  font-size: 16px;
-}
-
-.logo {
-  font-weight: 600;
-  font-size: 18px;
+  align-items: center;
+  background-image: url("../RESOURCES/Screenshot__9_-removebg-preview\ \(5\).png");
+  background-size: cover;
+  height: 180px;
+  width: 200px;
 }
 
 nav {
@@ -39,11 +28,9 @@ nav {
   display: flex;
   justify-content: space-around;
   /* width: 100%; */
-
 }
 
 .picture {
-  margin-top: 0px;
   display: flex;
   justify-content: space-around;
   width: 80%;
@@ -165,7 +152,6 @@ span {
 
 /* DOWN */
 .width {
-  width: 100%;
   background-color: #e4aa48;
   height: 2px;
 }
@@ -174,5 +160,5 @@ span {
   font-size: 14px;
   text-align: center;
   color: white;
-  padding: 15px 15px;
+  padding: 10px 10px;
 }
